@@ -24,7 +24,6 @@ jobs:
       - name: Test
         run: bun run test
 
-
       - name: Awesome
         run: bun run awesome
 
