@@ -24,11 +24,6 @@ jobs:
       - name: Test
         run: bun run test
 
-      - name: Format
-        run: bun run format
-        env:
-          OPENAI_API_KEY: ${{ secrets.OPENAI_TOKEN }}
-
       - name: Awesome
         run: bun run awesome
 
