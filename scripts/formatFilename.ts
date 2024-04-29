@@ -13,6 +13,7 @@ const formatFilenameById = (fileName) => {
     const newFilepath = resolve(pluginsDir, newFilename);
     renameSync(filePath, newFilepath);
     consola.success(`rename [${fileName}] >> [${newFilename}]`);
+    if (!pluginLocales) return;
     for (const file of pluginLocales) {
       if (checkJSON(file)) {
         const localeFilename = file.name;
