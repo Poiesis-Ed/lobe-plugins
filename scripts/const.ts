@@ -10,7 +10,7 @@ export const localesDir = resolve(root, './locales');
 export const publicDir = resolve(root, 'public');
 
 export const plugins = readdirSync(pluginsDir, { withFileTypes: true });
-export const pluginLocales = readdirSync(localesDir, { withFileTypes: true }) || null;
+export const pluginLocales = null; // readdirSync(localesDir, { withFileTypes: true }); - remove because it was causing a problem.
 
 export const templatePath = resolve(root, 'plugin-template.json');
 
