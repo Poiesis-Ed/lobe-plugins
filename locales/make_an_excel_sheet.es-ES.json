@@ -1,7 +1,0 @@
-{
-  "meta": {
-    "title": "Crear una hoja",
-    "description": "Generar un archivo csv que se puede importar directamente a Google Sheets o MS Excel.",
-    "tags": ["csv", "excel", "hoja"]
-  }
-}

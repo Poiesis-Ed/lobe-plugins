@@ -1,7 +1,0 @@
-{
-  "meta": {
-    "title": "TikZJax",
-    "description": "تحويل رمز TikZ في LaTeX إلى صور SVG للرسوم البيانية الرياضية والتصورات المقياسة والواضحة.",
-    "tags": ["latex", "svg", "visualization", "diagram", "math"]
-  }
-}

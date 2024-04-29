@@ -1,7 +1,0 @@
-{
-  "meta": {
-    "title": "Criar uma planilha",
-    "description": "Gerar um arquivo csv que pode ser importado diretamente para o Google Sheets ou MS Excel.",
-    "tags": ["csv", "excel", "planilha"]
-  }
-}
